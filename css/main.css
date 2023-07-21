@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .card{
+        @apply bg-gray-800 p-5 text-center text-white border-4 rounded border-gray-800 hover:border-indigo-800 duration-1000
+    }
+}
